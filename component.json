@@ -1,0 +1,14 @@
+{
+    "version": "3.51.0",
+    "description": "ajax submit form",
+    "name": "jquery-form",
+    "main": "jquery.form.js",
+    "dependencies": [
+        "jquery@1.8.3"
+    ],
+    "shim": {
+        "jquery.form.js": {
+            "deps": ["jquery"]
+        }
+    }
+}
